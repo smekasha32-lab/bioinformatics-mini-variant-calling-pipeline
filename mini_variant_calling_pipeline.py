@@ -1,3 +1,5 @@
+
+
 def read_fasta(filename):                    # Reads a FASTA file and isolates the sequence from the header.
     file = open(filename,"r")
     header = file.readline().strip()
